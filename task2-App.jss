@@ -12,7 +12,7 @@ function App() {
   return (
       <>
       <header className="Nav">
-        <h1>Lets Grow More</h1>
+        <h1> Tupperware®</h1>
         <div className="btn" onClick={getUsers}>
           GET USERS
         </div>
