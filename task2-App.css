@@ -4,7 +4,7 @@
     padding: 0%;
 }
 body{
-background-image: url("https://onemb.imgix.net/content/2020-09/d2cf63f081ea0fe2660637340622c30c.jpg?fit=clip&w=1200");
+background-image: url("https://onemb.imgix.net/content/2021-02/0e42a6a26fbb496a2c7fd4ae84241eec.jpg?fit=clip&w=12000");
 background-size: cover ; 
 
 }
@@ -16,11 +16,12 @@ background-size: cover ;
     background-color: #000000;
   }
   h1 {
-    
+    font-size: 45px;
     font-family: Arial;
     float: left;
     color: #ffffffec;
     padding: 10px;
+    
   }
   .btn {
     float: right;
