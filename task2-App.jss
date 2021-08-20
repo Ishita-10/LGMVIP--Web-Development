@@ -14,7 +14,7 @@ function App() {
       <header className="Nav">
         <h1> Tupperware®</h1>
         <div className="btn" onClick={getUsers}>
-          GET USERS
+        <i>GET USERS</i> 
         </div>
       </header>
       <div className="row">
