@@ -16,18 +16,19 @@ background-size: cover ;
     background-color: #000000;
   }
   h1 {
-    font-size: 45px;
-    font-family: Arial;
+    font-size: 40px;
+    font-family: Arial, sans-serif ;
     float: left;
-    color: #ffffffec;
+    color: #ffffff;
     padding: 10px;
     
   }
   .btn {
+
     float: right;
     padding: 12px;
     margin: 10px;
-    background-color: #ffffff;
+    background-color: #eee;
     cursor: pointer;
     border-radius: 8px;
 
@@ -46,11 +47,12 @@ background-size: cover ;
     margin: 20px;
   }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
     padding: 30px;
     text-align: center;
-    background-color: rgb(255, 255, 255,0.35);
+    background-color: rgb(255, 255, 255,0.55);
     border-radius: 10px;
+
   }
   @media screen and (max-width: 600px) {
     .column {
@@ -74,7 +76,7 @@ background-size: cover ;
     font-family: 'Arial', sans-serif;
   }
   .card:hover{
-     background: rgba(255, 255, 255, 0.22);
+     background: rgba(17, 17, 17, 0.359);
      color: #030303;
      cursor: pointer;
   }
