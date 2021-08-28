@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+background-image: url("https://onemb.imgix.net/content/2021-02/0e42a6a26fbb496a2c7fd4ae84241eec.jpg?fit=clip&w=12000");
+background-size: cover ; 
+
+}
+  .Nav 
+  {
+    font-family: 'Arial', sans-serif;
+    color: black;
+    height: 60px;
+    padding: 10px;
+    background-color: #000000;
+  }
+
+h1 {
+  font-size: 40px;
+  font-family: Arial, sans-serif ;
+  float: left;
+  color: #ffffff;
+  padding: 10px;
+  
+}
+.center{
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: red; 
+}
+.btn {
+
+  float: right;
+  padding: 12px;
+  margin: 10px;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover 
+{
+  background-color: rgb(62, 138, 168);
+  color: #ffffff
+}
+.row {
+  margin: 40px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255,0.55);
+  border-radius: 10px;
+
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card-img-top {
+  background-color: #030303;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  border: 2px solid #000000;
+}
+.card-title {
+  font-family: 'Arial', sans-serif;
+}
+
+.card-text 
+{
+  color: rgb(26, 25, 25);
+  font-family: 'Arial', sans-serif;
+}
+
+.card:hover
+{
+   background: rgba(17, 17, 17, 0.359);
+   color: #030303;
+   cursor: pointer;
+}
+
+.card:hover .card-text
+{
+   color: rgb(226, 21, 117);
+
+}
+.loaderCircle {
+  position: relative;
+  width: 300px;
+  min-height: 20px;
+  margin: 20px auto;
+  
+  top: 20px;;
+
+  
+}
+
+.loaderCircle::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  
+  width: 300px;
+  min-height: 20px;
+  background-color: #b90e9d80;
+}
+
+.loaderCircle::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 30px;
+  min-height: 20px;
+  background-color: rgb(206, 205, 205);
+  animation: load 1.5s linear infinite;
+}
+@keyframes load {
+  0% {
+    left: 0;
+    width: 0px;
+  }
+  50% {
+    left: 150px;
+    width: 150px;
+  }
+  100% {
+    left: 300px;
+    width: 0px;
+  }
+}
