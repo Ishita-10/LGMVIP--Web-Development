@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tupperware</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo">
+                <a href="#Tupperware®">Tupperware®</a>
+            </div>
+            <div class="header-link">
+                <a href="#Catalogue">Catalogue</a>
+            </div>
+            <div class="header-link">
+                <a href="#Gallery">Gallery</a>
+            </div>
+            <div class="header-link">
+                <a href="#Tupperware® Products">Tupperware® Products</a>
+            </div>
+            <div class="header-link">
+                <a href="#About us">About us</a>
+            </div>
+        </div>
+
+    </div>
+    
+        <div class="banner-image">
+            <div class="inner-banner-image">
+                <center>
+                <div class="banner-content">
+                    <h1>Tupperware is now available everywhere !</h1>
+                    <a class="button">Shop now</a>
+                </div>
+                </center>
+                
+            </div>
+            </div>
+            <div id="mySidenav" class="sidenav">
+              <a href="#" id="about">About</a>
+              <a href="#" id="blog">Blog</a>
+              <a href="#" id="Location">Location</a>
+              <a href="#" id="contact">Contact</a>
+            </div>
+            <div>
+                <h1 style="text-align:center; font-family: Arial;padding: 10px;">Products Gallery</h1>
+                <div class="gallery">
+                <center>
+                    <div class="mySlides">
+                        <div class="numbertext">1/6</div>
+                        <img src="https://onemb.imgix.net/content/2021-07/ecb4c318b6f03f77b42d54e1d217a3b1.jpg?fit=clip&w=1200" style="width:80%">
+                    </div>
+                </center>
+                <center>
+                    <div class="mySlides">
+                        <div class="numbertext">2/6</div>
+                        <img src="https://onemb.imgix.net/content/2021-07/d18219edabb9e383eda9b6d346f4d1b7.jpg?fit=clip&w=1200" style="width:80%">
+                    </div>
+                 </center> 
+                 <center>
+                    <div class="mySlides">
+                        <div class="numbertext">3/6</div>
+                        <img src="https://onemb.imgix.net/content/2021-04/488e627d552a69c13d3c765ef77d8b9b.jpg?fit=clip&w=1200" style="width:80%">
+                    </div>
+                 </center>
+                 <center> 
+                    <div class="mySlides">
+                        <div class="numbertext">4/6</div>
+                        <img src="https://onemb.imgix.net/content/2021-03/7483c6fbd9b78f1dcac794ec3016ac6e.jpg?fit=clip&w=1200" style="width:80%">
+                    </div>
+                 </center>
+                 <center> 
+                    <div class="mySlides">
+                        <div class="numbertext">5/6</div>
+                        <img src="https://onemb.imgix.net/content/2021-02/d65c10972101191ff62ab8396dd2c7a8.jpg?fit=clip&w=1200" style="width:80%">
+                    </div>
+                 </center>
+                 <center> 
+                    <div class="mySlides">
+                        <div class="numbertext">6/6</div>
+                        <img src="https://onemb.imgix.net/content/2021-02/0e42a6a26fbb496a2c7fd4ae84241eec.jpg?fit=clip&w=1200" style="width:80%">
+                    </div>
+                 </center>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                      </div>
+
+                      <div class="row">
+                        <div class="column">
+                          <img class="demo cursor" src="https://onemb.imgix.net/content/2021-07/ecb4c318b6f03f77b42d54e1d217a3b1.jpg?fit=clip&w=1200" style="width:100%" onclick="currentSlide(1)" alt="Image1">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="https://onemb.imgix.net/content/2021-07/d18219edabb9e383eda9b6d346f4d1b7.jpg?fit=clip&w=1200" style="width:100%" onclick="currentSlide(2)" alt="Image2">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="https://onemb.imgix.net/content/2021-04/488e627d552a69c13d3c765ef77d8b9b.jpg?fit=clip&w=1200" style="width:100%" onclick="currentSlide(3)" alt="Image3">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="https://onemb.imgix.net/content/2021-03/7483c6fbd9b78f1dcac794ec3016ac6e.jpg?fit=clip&w=1200" style="width:100%" onclick="currentSlide(4)" alt="Image4">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="https://onemb.imgix.net/content/2021-02/d65c10972101191ff62ab8396dd2c7a8.jpg?fit=clip&w=1200" style="width:100%" onclick="currentSlide(5)" alt="Image5">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="https://onemb.imgix.net/content/2021-02/0e42a6a26fbb496a2c7fd4ae84241eec.jpg?fit=clip&w=1200" style="width:100%" onclick="currentSlide(6)" alt="Image6">
+                          </div>
+                        </div>
+                </div>
+
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("demo");
+                      var captionText = document.getElementById("caption");
+                      if (n > slides.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";
+                      dots[slideIndex-1].className += " active";
+                      captionText.innerHTML = dots[slideIndex-1].alt;
+                    }
+                    </script>
+
+            </div>
+            <div class="container">
+            
+                <div class="container1">
+                    <h1 id="About us">About us</h1>
+                    <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/089315-About-us-banner_rdax_891x356.png" alt="image" usemap="#About us">
+                    <map name="About us">
+                        <area shape="default" alt="About us" href="https://www.tupperwareindia.com/about-tupperware-india">
+
+                    </map>
+                    <p>
+                        Tupperware has transformed Indian homes and lives of Indian women over the last two decades.<br>
+                        We have made choosing sustainable solutions easy and created business opportunities for women from all walks of life.<br>
+                        We have always led our business with a “people & planet first” approach, which has brought us continuous growth and success.<br>
+                        Our 3 million+ strong sales force in over 80 countries makes a compelling testimony of this. 
+                    </p>
+                
+
+                </div>
+                <div class="container1">
+                    <h1 id="Tupperware® Products">Tupperware® Products</h1>
+                    <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/090030-Tupperware-Products_rdax_891x357.png" alt="image" usemap="#Tupperware_prod">
+                    <map name="Tupperware_prod">
+                        <area shape="default" alt="Tupperware® Products" href="https://www.tupperwareindia.com/products/tupperware-products-range">
+                    </map>
+                    <p>
+                        We bring to you an amazing range of kitchen and homeware solutions and first-time-ever Tupperware products.<br> 
+                        From on-the-go solutions to space-saving utility products that make your work effortless and fun, you'll find them all and more.<br>
+                    </p>
+                    <div class="rows">
+                        <div class="col">
+                          <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088420-On-The-Go.jpg" alt="On the go";>
+                        </div>
+                        <div class="col">
+                          <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088421-Conservation-Dry-Storage.jpg" alt="Dry storage"; >
+                        </div>
+                        <div class="col">
+                          <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088423-Water-Solution.jpg" alt="Water solution"; >
+                        </div>
+                        <div class="col">
+                          <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088430-KMO-Sets.jpg"alt="KMO sets"; >
+                        </div>
+                      </div>
+                      <div class="rows">
+                          <div class="col1">
+                              <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088427-Steel-Cookware.jpg" alt="Steel & Cookware";>
+                          </div>
+                          <div class="col1">
+                              <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088428-Kids.jpg" alt="Kids">
+                          </div>
+                          <div class="col1">
+                            <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088424-Food_Preparationjpg.jpg" alt="Food preparation">
+                        </div>
+                        <div class="col1">
+                          <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/088422-Conservation-Fridge-and-Freezer.jpg" alt="Fridge & Freezer">
+                      </div>
+                      </div>
+
+                </div>
+               
+                
+
+            <div class="team">
+            <h1>Meet the Leadership Team</h1>
+            <div class="r">
+                <div class="c">
+                  <div class="card">
+                    <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/089145-Deepak-Chhabra_rdax_445x329.png" alt="Deepak Chhabra" style="width:100%">
+                    <div class="containers">
+                      <h2>Deepak Chhabra</h2>
+                      <p class="title">Managing Director</p>
+                      <p> He joined Tupperware India in 2019.<br> A strong advocate of brick & mortar stores,
+                          he led Tupperware through the harmonization of a multi-channel strategy and introduced Retail,
+                          e-tail and webstore.<br>An adventurer at heart, Deepak values risks & failures as much as he celebrates success. </p>
+                          <p>example@example.com</p>
+                      <p><button class="button">LinkedIn</button></p>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="c">
+                  <div class="card">
+                    <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/089146-Nitin-Malhotra_rdax_445x329.png" alt="Nitin Malhotra" style="width:100%">
+                    <div class="containers">
+                      <h2>Nitin Malhotra</h2>
+                      <p class="title">Associate Director</p>
+                      <p>An out-of-the-box thinker with excellent relationship-building & interpersonal skills, 
+                          Nitin is an asset to Tupperware in the truest sense. It’s his 15th year at Tupperware, and he leads the Product Management
+                          & Planning function. 
+                          His gamut of expertise ranges from New Product Development to planning Channel incentives and promotions.</p>
+                      <p>example@example.com</p>
+                      <p><button class="button">LinkedIn</button></p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="c">
+                  <div class="card">
+                    <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/089151-Noopur-Jain_rdax_445x329.png" alt="Noopur Jain" style="width:100%">
+                    <div class="containers">
+                      <h2>Noopar Jain</h2>
+                      <p class="title">Director- HR & Admin</p>
+                      <p>Along with leading the HR & Administration function, she also leads our CSR division.She has worked across various domains of HR covering Strategy,
+                           Talent acquisition & management
+                           Noopur has been a part of the prestigious Tupperware Change Leaders team at an APAC level. 
+                           She loves to travel to understand different cultures.</p>
+                      <p>example@example.com</p>
+                      <p><button class="button">LinkedIn</button></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="register-photo">
+                <div class="form-container">
+                    <div class="image-holder"></div>
+                    <form method="post">
+                        <h2 class="text-center"><strong>Create</strong> an account.</h2>
+                        <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                        <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                        <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
+                        <div class="form-group">
+                            <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+                        </div>
+                        <div class="form-group"><button class="btn primary" type="submit">Sign Up</button></div><a class="already" href="#">You already have an account? Login here.</a>
+                    </form>
+                </div>
+            </div>				
+
+              
+            
+                            
+            <div>
+            <footer>
+                <h2 style="text-align: center; font-family: Apple Chancery, cursive;";>Connect with us</h2>
+
+                <div class="icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+
+                <div class="img_footer">
+                <img src="https://www.tupperwareindia.com/assets/images/mediacenter-images/017922-Checkout.png" alt="017922-Checkout" >
+                </div>
+
+                <p style="padding: 20px;">
+                    <a href="#About us" class="footer_content">About us</a>
+                    <a href="Privacy policy" class="footer_content"> Privacy policy </a>
+                    <a href="Terms of use" class="footer_content"> Terms of use </a>
+                    <a href="Help" class="footer_content"> Help </a>
+                    <a href="Tupperware® opportunity FAQs" class="footer_content"> Tupperware® opportunity FAQs </a>
+                    <a href="Contact" class="footer_content"> Contact </a>
+                    <a href="© 2021 Tupperware. All rights reserved." class="footer_content"> © 2021 Tupperware. All rights reserved.</a>
+                </p>
+
+            </footer>
+            </div>
+
+       
+    
+</body>
+</html>
